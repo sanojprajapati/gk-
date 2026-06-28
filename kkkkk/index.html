@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Public School - Online Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> STEPPING STONE ACADEMY </h1>
+            <p>General Knowledge Quiz - Class 1st to 8th </p>
+        </div>
+
+        <div class="quiz-box" id="quizBox">
+            <form id="quizForm">
+                <div class="question">
+                    <h3>1. भारत का राष्ट्रीय पशु कौन है?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q1" value="a"> शेर</label>
+                        <label><input type="radio" name="q1" value="b"> बाघ</label>
+                        <label><input type="radio" name="q1" value="c"> हाथी</label>
+                        <label><input type="radio" name="q1" value="d"> चीता</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>2. पानी का रासायनिक सूत्र क्या है?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q2" value="a"> CO2</label>
+                        <label><input type="radio" name="q2" value="b"> H2O</label>
+                        <label><input type="radio" name="q2" value="c"> O2</label>
+                        <label><input type="radio" name="q2" value="d"> NaCl</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>3. कंप्यूटर का दिमाग किसे कहते हैं?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q3" value="a"> RAM</label>
+                        <label><input type="radio" name="q3" value="b"> CPU</label>
+                        <label><input type="radio" name="q3" value="c"> Hard Disk</label>
+                        <label><input type="radio" name="q3" value="d"> Monitor</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>4. 'माता' को संस्कृत में क्या कहते हैं?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q4" value="a"> पिता</label>
+                        <label><input type="radio" name="q4" value="b"> भ्राता</label>
+                        <label><input type="radio" name="q4" value="c"> माता</label>
+                        <label><input type="radio" name="q4" value="d"> सुता</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>5. 15 + 25 × 2 = ?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q5" value="a"> 80</label>
+                        <label><input type="radio" name="q5" value="b"> 65</label>
+                        <label><input type="radio" name="q5" value="c"> 100</label>
+                        <label><input type="radio" name="q5" value="d"> 55</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>6. भारत की राजधानी कहाँ है?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q6" value="a"> मुंबई</label>
+                        <label><input type="radio" name="q6" value="b"> कोलकाता</label>
+                        <label><input type="radio" name="q6" value="c"> नई दिल्ली</label>
+                        <label><input type="radio" name="q6" value="d"> चेन्नई</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>7. HTML का पूरा नाम क्या है?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q7" value="a"> Hyper Text Markup Language</label>
+                        <label><input type="radio" name="q7" value="b"> High Text Machine Language</label>
+                        <label><input type="radio" name="q7" value="c"> Hyper Tabular Markup Language</label>
+                        <label><input type="radio" name="q7" value="d"> None</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>8. सबसे बड़ा ग्रह कौन सा है?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q8" value="a"> पृथ्वी</label>
+                        <label><input type="radio" name="q8" value="b"> मंगल</label>
+                        <label><input type="radio" name="q8" value="c"> बृहस्पति</label>
+                        <label><input type="radio" name="q8" value="d"> शनि</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>9. ताजमहल किस शहर में है?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q9" value="a"> दिल्ली</label>
+                        <label><input type="radio" name="q9" value="b"> आगरा</label>
+                        <label><input type="radio" name="q9" value="c"> जयपुर</label>
+                        <label><input type="radio" name="q9" value="d"> लखनऊ</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h3>10. एक साल में कितने महीने होते हैं?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q10" value="a"> 10</label>
+                        <label><input type="radio" name="q10" value="b"> 11</label>
+                        <label><input type="radio" name="q10" value="c"> 12</label>
+                        <label><input type="radio" name="q10" value="d"> 13</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit करें</button>
+            </form>
+        </div>
+
+        <div class="result" id="resultBox">
+            <h2>आपका Result</h2>
+            <div class="score" id="scoreDisplay">0/10</div>
+            <div class="message" id="message"></div>
+            <button class="retry-btn" onclick="location.reload()">फिर से Quiz दें</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
